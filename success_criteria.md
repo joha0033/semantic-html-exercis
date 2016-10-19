@@ -1,0 +1,3 @@
+- [] HTML passess validation
+- [] Includes header, nav, main, footer, aside
+- [] Includes ul and ols where appropriate
