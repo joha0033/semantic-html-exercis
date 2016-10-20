@@ -8,6 +8,7 @@
 - [] `<article>` resets header counts
 - [] `<time>` used for date
 - [] `<section>` used parts of articles
+- [] `<address>` used for email address
 - [] `<aside>` used for sidebar
 - [] `<article>` has a `<footer>`
 - [] "Also in the news" is a new `<section>`
