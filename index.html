@@ -5,57 +5,65 @@
     <title>Semantic NYT</title>
   </head>
   <body>
-    <div class="masthead">
+    <header class="masthead">
       <h1>New York Times</h1>
 
-      <div class="navigation">
-        <div class="list">
-          <div>
+      <nav class="navigation">
+        <ul class="list">
+          <li>
             <a href="world.html">World</a>
-          </div>
+          </li>
 
-          <div>
+          <li>
             <a href="sports.html">Sports</a>
-          </div>
+          </li>
 
-          <div>
+          <li>
             <a href="local.html">Local</a>
-          </div>
-        </div>
-      </div>
-    </div>
+          </li>
+        </ul>
+      </nav>
+    </header>
 
-    <div class="content">
-      <div class="main-article">
-        <div class="article-heading">
-          <h2>Title Goes Here</h2>
-          <p>October 31st, 2013</p>
-        </div>
-
-        <div>
+    <main class="content">
+      <article class="main-article">
+        <header class="article-heading">
+          <h2>The World is going to shit, read on...</h2>
+          <time datetime = "2013-10-13" >October 31st, 2013</time>
+        </header>
+      </article>
+        <ul>
+      <li>
+        <section>
           <h3>Mine explosion by the old well</h3>
           <p>Lorem Ipsum Dolor</p>
           <p>Lorem Ipsum Dolor</p>
 
           <h4>Dynamite to blame?</h4>
           <p>Lorem Ipsum Dolor</p>
-        </div>
+        </section>
+      </li>
 
-        <div>
+        <li>
+          <section>
           <h3>The water will be fine</h3>
           <p>Lorem Ipsum Dolor</p>
           <p>Lorem Ipsum Dolor</p>
           <p>Lorem Ipsum Dolor</p>
-        </div>
+        </section>
+        </li>
 
-        <div>
+        <li>
+          <section>
           <h3>A town rebuilding</h3>
           <p>Lorem Ipsum Dolor</p>
           <p>Lorem Ipsum Dolor</p>
           <p>Lorem Ipsum Dolor</p>
-        </div>
+        </section>
+        </li>
+      </ul>
 
-        <div class="sidebar">
+        <aside class="sidebar">
           <h3>Mine explosions throughout history</h3>
 
           <ul>
@@ -63,38 +71,37 @@
             <li>And then this happened</li>
             <li>And... this happened</li>
           </ul>
-        </div>
+        </aside>
 
-        <div class="bottom">
+        <footer class="bottom">
           Contact the author at
           <a href="mailto:kyle.coberly@example.com">
-            <div>kyle.coberly@example.com</div>
+            <address>kyle.coberly@example.com</address>
           </a>
-        </div>
-      </div>
+      </footer>
 
-      <div class="other-news">
+      <section class="other-news">
         <h2>Also in the news</h2>
 
-        <div class="collapsabile">
-          <div class="teaser-text">Mets Game</div>
+        <details class="collapsabile">
+          <summary class="teaser-text">Mets Game</summary>
           <p>The Mets clobbered the Cubs in a total upset</p>
-        </div>
+        </details>
 
-        <div class="collapsabile">
-          <div class="teaser-text">Knicks Game</div>
-          <p>The Knicks clobbered the Bulls in a total upset</p>
-        </div>
+        <!-- <section class="collapsabile">
+          <summary class="teaser-text">Knicks Game</summary>
+          <details>The Knicks clobbered the Bulls in a total upset</details>
+        </section>
 
-        <div class="collapsabile">
-          <div class="teaser-text">Jets Game</div>
-          <p>The Jets clobbered the Steelers in a total upset</p>
-        </div>
-      </div>
-    </div>
+        <section class="collapsabile">
+          <summary class="teaser-text">Jets Game</summary>
+          <details>The Jets clobbered the Steelers in a total upset</details>
+        </section> -->
+      </section>
+    </main>
 
-    <div class="page-bottom">
-      <span class="legal">Copyright 2015, New York Times</span>
-    </div>
+    <footer class="page-bottom">
+      <small class="legal">Copyright 2015, New York Times</small>
+    </footer>
   </body>
 </html>
